@@ -19,11 +19,20 @@ This project provides a graphical user interface for compressing and extracting 
 <img width="402" alt="zip huff" src="https://github.com/itsmohitnarayan/ziphuff/assets/68772712/e21407c1-e2d1-462e-a6a2-70e7da4006fa">
 <img width="403" alt="zip huff2" src="https://github.com/itsmohitnarayan/ziphuff/assets/68772712/6be63f20-3ea9-4e78-a98f-75a8b2450a31">
 
-## Installation
 
 ### Prerequisites
 
 - Rust: Install from [rust-lang.org](https://www.rust-lang.org/)
+
+```
+bit-vec = { version = "0.6.3", features = ["serde"] }
+rayon = "1.10.0"
+serde = { version = "1.0.202", features = ["derive"] }
+rmp-serde = "1.3.0"
+clap = { version = "4.5.4", features = ["derive"] }
+eframe = "0.27.2"
+rfd = "0.10.0"
+```
 
 ### Clone the Repository
 
