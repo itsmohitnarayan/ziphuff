@@ -133,7 +133,7 @@ fn run_huffman(input_path: String, output_path: String, action: Action, mode: Mo
             }
             let compressed = compressed.unwrap();
 
-            let mut out_f = File::create(&output_path);
+            let out_f = File::create(&output_path);
             if let Err(err) = out_f {
                 return format!("Failed to create output file: {}", err);
             }
