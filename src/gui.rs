@@ -1,6 +1,6 @@
 // src/gui.rs
 
-use eframe::egui::{self, ProgressBar};
+use eframe::egui::{self};
 use std::sync::{Arc, Mutex};
 use std::fs::File;
 use std::io::Write;
